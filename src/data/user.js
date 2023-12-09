@@ -28,8 +28,8 @@ const INFO = {
 	projects: [
 		{
 			title: "WEATHER APP",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+			description: "Based on the country you searches it will gives you 5 days Weather Report including Temperature,Humidity,Pressure etc",
+
 			logo: "/favicon.ico",
 			linkText: "View Project",
 			link: "https://jeevan-weather-app.netlify.app",
@@ -38,7 +38,7 @@ const INFO = {
 		{
 			title: "TODO",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"You can create Todos to remember and do it, you can able create,Make it complete,Delete after Completion",
 			logo: "/favicon.ico",
 
 			linkText: "View Project",
@@ -48,31 +48,23 @@ const INFO = {
 		{
 			title: "PORTFOLIO",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"My first Portfolio website made by taking references on maybe 3 years back ",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
+
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://jeevanjames2000.github.io/portfolio-20webiste-index.html/?utm_source=jeevan&utm_medium=portfolio&utm_campaign=portfolio",
 		},
+
 
 		{
-			title: "Project 4",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+			title: "Anime",
+			description: "Anime website that list out Top and Popular anime and its Description still under Development",
 			logo: "/favicon.ico",
-
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://animetopfavlist.netlify.app/",
 		},
 
-		{
-			title: "Project 5",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "/favicon.ico",
 
-			linkText: "View Project",
-			link: "https://github.com",
-		},
 	],
 };
 

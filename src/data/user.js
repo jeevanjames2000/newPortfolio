@@ -27,6 +27,13 @@ const INFO = {
 
 	projects: [
 		{
+			title: "Finance Tracker",
+			description: "Personal Finance Tracker for daily expenses,investments,spending calculations and visualize through Graphical representation of data",
+			logo: "/favicon.ico",
+			linkText: "View Project",
+			link: "https://personalfinancetracker01.netlify.app",
+		},
+		{
 			title: "WEATHER APP",
 			description: "Based on the country you searches it will gives you 5 days Weather Report including Temperature,Humidity,Pressure etc",
 
@@ -44,6 +51,13 @@ const INFO = {
 			linkText: "View Project",
 			link: "https://jeevan-todos.netlify.app",
 		},
+		{
+			title: "Anime",
+			description: "Anime website that list out Top and Popular anime and its Description still under Development",
+			logo: "/favicon.ico",
+			linkText: "View Project",
+			link: "https://animetopfavlist.netlify.app/",
+		},
 
 		{
 			title: "PORTFOLIO",
@@ -56,13 +70,8 @@ const INFO = {
 		},
 
 
-		{
-			title: "Anime",
-			description: "Anime website that list out Top and Popular anime and its Description still under Development",
-			logo: "/favicon.ico",
-			linkText: "View Project",
-			link: "https://animetopfavlist.netlify.app/",
-		},
+		
+		
 
 
 	],

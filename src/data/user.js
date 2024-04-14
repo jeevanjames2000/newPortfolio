@@ -27,6 +27,13 @@ const INFO = {
 
 	projects: [
 		{
+			title: "College Monitoring Application",
+			description: "A Complete Student and Faculty Monitoring Application where we can keep track of Attendence and Entry time and Exit time of Student with the help of Qr code scanning, we will create a Unique Qr code for each student based on his data and we use React Native App to Scan the Qr code and Call a Api for Entry and Exit time to be stored in DB ",
+			logo: "/favicon.ico",
+			linkText: "View Project",
+			link: "https://college-monitoring-panel.netlify.app/",
+		},
+		{
 			title: "Finance Tracker",
 			description: "Personal Finance Tracker for daily expenses,investments,spending calculations and visualize through Graphical representation of data",
 			logo: "/favicon.ico",

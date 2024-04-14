@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
-import { Helmet } from "react-helmet";
+
 import styled from "styled-components";
 
 import NavBar from "../components/common/navBar";
@@ -11,7 +11,6 @@ import INFO from "../data/user";
 import myArticles from "../data/articles";
 
 import "./styles/readArticle.css";
-import Adsense from "./Adsense";
 
 let ArticleStyle = styled.div``;
 
@@ -31,19 +30,6 @@ const ReadArticle = () => {
 
   return (
     <React.Fragment>
-      <Helmet>
-        <title>{`${article().title} | ${INFO.main.title}`}</title>
-        <meta name="description" content={article().description} />
-        <meta name="keywords" content={article().keywords.join(", ")} />
-        <meta
-          name="google-adsense-account"
-          content="ca-pub-6960670108371447"
-        ></meta>
-      </Helmet>
-      <Adsense
-        style={{ display: "block", width: "1200px", height: "280px" }}
-        slot="6960670108371447"
-      />
       <div className="page-content">
         <NavBar />
 

@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import { Helmet } from "react-helmet";
 
 import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
@@ -11,7 +10,6 @@ import SEO from "../data/seo";
 
 import "./styles/projects.css";
 import { Link } from "react-router-dom";
-import Adsense from "./Adsense";
 
 const Projects = () => {
   useEffect(() => {
@@ -22,19 +20,6 @@ const Projects = () => {
 
   return (
     <React.Fragment>
-      <Helmet>
-        <title>{`Projects | ${INFO.main.title}`}</title>
-        <meta name="description" content={currentSEO.description} />
-        <meta name="keywords" content={currentSEO.keywords.join(", ")} />
-        <meta
-          name="google-adsense-account"
-          content="ca-pub-6960670108371447"
-        ></meta>
-      </Helmet>
-      <Adsense
-        style={{ display: "block", width: "1200px", height: "280px" }}
-        slot="6960670108371447"
-      />
       <div className="page-content">
         <NavBar active="projects" />
         <div className="content-wrapper">

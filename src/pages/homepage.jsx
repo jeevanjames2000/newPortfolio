@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { Helmet } from "react-helmet";
 
 import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -14,7 +13,6 @@ import INFO from "../data/user";
 import SEO from "../data/seo";
 
 import "./styles/homepage.css";
-import Adsense from "./Adsense";
 
 const Homepage = () => {
   const [stayLogo, setStayLogo] = useState(false);
@@ -63,20 +61,6 @@ const Homepage = () => {
 
   return (
     <React.Fragment>
-      <Helmet>
-        <title>{INFO.main.title}</title>
-        <meta name="description" content={currentSEO.description} />
-        <meta name="keywords" content={currentSEO.keywords.join(", ")} />
-        <meta
-          name="google-adsense-account"
-          content="ca-pub-6960670108371447"
-        ></meta>
-      </Helmet>
-      <Adsense
-        style={{ display: "block", width: "1200px", height: "280px" }}
-        slot="6960670108371447"
-      />
-
       <div className="page-content">
         <NavBar active="home" />
         <div className="content-wrapper">

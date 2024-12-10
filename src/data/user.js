@@ -67,7 +67,7 @@ const INFO = {
       description: "Implemented Custom components using React and Nodejs",
       logo: "/nodeimg.png",
       linkText: "View Project",
-      link: "https://github.com/jeevanjames2000/react-hooks",
+      link: "https://reactcustomcomponents.netlify.app/",
     },
 
     {

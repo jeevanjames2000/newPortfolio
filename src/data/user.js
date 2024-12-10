@@ -9,12 +9,14 @@ const INFO = {
   socials: {
     github: "https://github.com/jeevanjames2000",
     linkedin: "https://www.linkedin.com/in/jeevan-sekhar-tamada-b9b0b11ba/",
+    leetcode: "https://leetcode.com/u/jeevanjames2000/",
+    hackerrank: "https://www.hackerrank.com/profile/jeevanjames2000",
   },
 
   homepage: {
-    title: "Frontend Developer",
+    title: "Software engineer",
     description:
-      "I am a Frontend developer with expertise in React. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
+      "I am a Software engineer with expertise in FullStack Web Applications and Mobile Apps. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
   },
 
   about: {
@@ -30,8 +32,7 @@ const INFO = {
         <span>
           A Complete Student and Faculty Attendance Monitoring Application with{" "}
           <strong>QR Code Scanning</strong>, where we can keep track of
-          Attendance and Entry time and Exit time of Student with the help of QR
-          code scanning
+          Attendance.
         </span>
       ),
       logo: "/favicon.ico",
@@ -47,13 +48,27 @@ const INFO = {
       link: "https://personalfinancetracker01.netlify.app",
     },
     {
+      title: "RBAC",
+      description: "Role Based Access Control using Nodejs",
+      logo: "/nodeimg.png",
+      linkText: "View Project",
+      link: "https://github.com/jeevanjames2000/Role-Based-Auth-NodeJS",
+    },
+    {
       title: "WEATHER APP",
       description:
-        "Based on the country you searches it will gives you 5 days Weather Report including Temperature,Humidity,Pressure etc",
+        "Based on the country you searches it will gives you 5 days Weather Report including. Temperature,Humidity,Pressure etc",
 
       logo: "/favicon.ico",
       linkText: "View Project",
       link: "https://jeevan-weather-app.netlify.app",
+    },
+    {
+      title: "Custom Components",
+      description: "Implemented Custom components using React and Nodejs",
+      logo: "/nodeimg.png",
+      linkText: "View Project",
+      link: "https://github.com/jeevanjames2000/react-hooks",
     },
 
     {
@@ -61,27 +76,8 @@ const INFO = {
       description:
         "You can create Todos to remember and do it, you can able create,Make it complete,Delete after Completion",
       logo: "/favicon.ico",
-
       linkText: "View Project",
       link: "https://jeevan-todos.netlify.app",
-    },
-    {
-      title: "Anime",
-      description:
-        "Anime website that list out Top and Popular anime and its Description still under Development",
-      logo: "/favicon.ico",
-      linkText: "View Project",
-      link: "https://animetopfavlist.netlify.app/",
-    },
-
-    {
-      title: "PORTFOLIO",
-      description:
-        "My first Portfolio website made by taking references on maybe 3 years back ",
-      logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
-
-      linkText: "View Project",
-      link: "https://jeevanjames2000.github.io/portfolio-20webiste-index.html/?utm_source=jeevan&utm_medium=portfolio&utm_campaign=portfolio",
     },
   ],
 };

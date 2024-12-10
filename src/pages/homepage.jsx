@@ -2,18 +2,22 @@ import React, { useState, useEffect } from "react";
 
 import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import {
+  faGithub,
+  faLinkedin,
+  faHackerrank,
+} from "@fortawesome/free-brands-svg-icons";
 
 import Logo from "../components/common/logo";
 import Footer from "../components/common/footer";
 import NavBar from "../components/common/navBar";
 import AllProjects from "../components/projects/allProjects";
+import { SocialIcon } from "react-social-icons";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
 
 import "./styles/homepage.css";
-
 const Homepage = () => {
   const [stayLogo, setStayLogo] = useState(false);
   const [logoSize, setLogoSize] = useState(80);
@@ -96,28 +100,35 @@ const Homepage = () => {
               </div>
             </div>
 
-            <div className="homepage-socials">
+            <div className="homepage-socials" style={{ gap: 5 }}>
               <a href={INFO.socials.github} target="_blank" rel="noreferrer">
-                <FontAwesomeIcon
-                  icon={faGithub}
-                  className="homepage-social-icon"
+                <SocialIcon
+                  network="github"
+                  style={{ height: 30, width: 30 }}
                 />
               </a>
 
               <a href={INFO.socials.linkedin} target="_blank" rel="noreferrer">
-                <FontAwesomeIcon
-                  icon={faLinkedin}
-                  className="homepage-social-icon"
+                <SocialIcon
+                  network="linkedin"
+                  style={{ height: 30, width: 30 }}
                 />
               </a>
+
               <a
-                href={`mailto:${INFO.main.email}`}
+                href={INFO.socials.hackerrank}
                 target="_blank"
                 rel="noreferrer"
               >
-                <FontAwesomeIcon
-                  icon={faMailBulk}
-                  className="homepage-social-icon"
+                <SocialIcon
+                  url="https://www.hackerrank.com/profile/jeevanjames2000"
+                  style={{ height: 30, width: 30 }}
+                />
+              </a>
+              <a href={INFO.socials.leetcode} target="_blank" rel="noreferrer">
+                <SocialIcon
+                  url="https://leetcode.com/u/jeevanjames2000/"
+                  style={{ height: 30, width: 30 }}
                 />
               </a>
             </div>

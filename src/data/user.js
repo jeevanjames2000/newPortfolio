@@ -58,7 +58,6 @@ const INFO = {
       title: "WEATHER APP",
       description:
         "Based on the country you searches it will gives you 5 days Weather Report including. Temperature,Humidity,Pressure etc",
-
       logo: "/favicon.ico",
       linkText: "View Project",
       link: "https://jeevan-weather-app.netlify.app",

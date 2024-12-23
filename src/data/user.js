@@ -27,6 +27,14 @@ const INFO = {
 
   projects: [
     {
+      title: "MicroFrontend E-Commerce Application",
+      description:
+        "A Microfrontend application  with React, integrating three apps (Header, Body, Footer) using Webpack Module Federation. This approach shares Redux state and configurations dynamically, enabling modularity and scalability.",
+      logo: "/favicon.ico",
+      linkText: "View Project",
+      link: "https://microfrontend-host.vercel.app/",
+    },
+    {
       title: "College Monitoring Application",
       description: (
         <span>
@@ -39,6 +47,7 @@ const INFO = {
       linkText: "View Project",
       link: "https://college-monitoring-panel.netlify.app/",
     },
+
     {
       title: "Finance Tracker",
       description:
@@ -55,29 +64,29 @@ const INFO = {
       link: "https://github.com/jeevanjames2000/Role-Based-Auth-NodeJS",
     },
     {
-      title: "WEATHER APP",
-      description:
-        "Based on the country you searches it will gives you 5 days Weather Report including. Temperature,Humidity,Pressure etc",
-      logo: "/favicon.ico",
-      linkText: "View Project",
-      link: "https://jeevan-weather-app.netlify.app",
-    },
-    {
       title: "Custom Components",
       description: "Implemented Custom components using React and Nodejs",
       logo: "/nodeimg.png",
       linkText: "View Project",
       link: "https://reactcustomcomponents.netlify.app/",
     },
-
     {
-      title: "TODO",
+      title: "Weather Application",
       description:
-        "You can create Todos to remember and do it, you can able create,Make it complete,Delete after Completion",
+        "Based on the country you searches it will gives you 5 days Weather Report including. Temperature,Humidity,Pressure etc",
       logo: "/favicon.ico",
       linkText: "View Project",
-      link: "https://jeevan-todos.netlify.app",
+      link: "https://jeevan-weather-app.netlify.app",
     },
+
+    // {
+    //   title: "TODO",
+    //   description:
+    //     "You can create Todos to remember and do it, you can able create,Make it complete,Delete after Completion",
+    //   logo: "/favicon.ico",
+    //   linkText: "View Project",
+    //   link: "https://jeevan-todos.netlify.app",
+    // },
   ],
 };
 

@@ -78,6 +78,14 @@ const INFO = {
       linkText: "View Project",
       link: "https://jeevan-weather-app.netlify.app",
     },
+    {
+      title: "LeetCode Chrome Extension",
+      description:
+        "Displays solutions for the currently opened problem when the 'Show Solutions' button is clicked.",
+      logo: "/leetcode.png",
+      linkText: "View Project",
+      link: "https://github.com/jeevanjames2000/chromeExtensions.git",
+    },
 
     // {
     //   title: "TODO",
